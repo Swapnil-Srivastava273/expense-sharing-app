@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.swaps273.expense.MainActivity">
+    <item
+        android:id="@+id/newmem"
+        android:orderInCategory="100"
+        android:title="New Member"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/newtr"
+        android:orderInCategory="100"
+        android:title="New Transaction"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        app:showAsAction="always" />
+</menu>
